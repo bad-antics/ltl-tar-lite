@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_tar_lite
+
+import std::io
+use ltl_tar_lite as lib
+
+fn main() {
+    io::println("ltl_tar_lite demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
