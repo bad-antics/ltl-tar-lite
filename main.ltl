@@ -1,0 +1,15 @@
+// ltl-tar-lite/main.ltl
+//
+// Minimal POSIX-ustar tarball reader and writer.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-tar-lite v0.1.0")
+    io::println("Minimal POSIX-ustar tarball reader and writer.")
+    0
+}
